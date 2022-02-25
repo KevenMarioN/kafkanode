@@ -1,0 +1,16 @@
+{
+  "name": "certification",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "consumer" : "ts-node-dev --transpile-only --ignore-watch node_modules src/index.ts"
+  },
+  "dependencies": {
+    "kafkajs": "^1.16.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  }
+}
